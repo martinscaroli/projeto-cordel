@@ -63,9 +63,8 @@ background-image: url('../imagens/bg1.jpg');
 }
 
 section#fundo2{
-background-image:  url(../imagens/fundo-carta.jpg);
+background-image:  url(../imagens/bg2.jpg);
 }
-
 
 section.img p{
     display: inline-block;    
