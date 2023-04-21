@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
+html, body{
+    background-color: rgb(168, 167, 167);
+    font-family: var(--fonte01);
+}
+header{
+    text-align: center;
+    background-color:rgba(204, 106, 40, 0.747);
+    color: white;   
+}
+header h1{
+   padding-top: 50px;
+   font-size: 5vw;
+   font-family: var(--fonte02);
+   font-variant: small-caps;
+}
+header p {
+    padding-bottom: 50px;
+}
+header a, footer a{    
+    color: white;
+    text-decoration: none;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 10vh 10vh;
+    font-family: var(--fonte03);
+    line-height: 2em;
+    font-size: 3.2vw;    
+}
+
+section.normal{
+    color: #000;
+    background-color:white;    
+    
+}
+section.img{    
+    background-size: cover;      
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5); 
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section#fundo1{
+background-image: url('../imagens/bg1.jpg');
+}
+
+section#fundo2{
+background-image:  url(../imagens/fundo-carta.jpg);
+}
+
+
+section.img p{
+    display: inline-block;    
+    background-color: #0000007e;
+    color: #fff;
+    padding: 5px;
+}
+footer{
+    background-color: #000000ad;
+    color: #fff;
+    text-align: center;
+    padding: 12px 12px;
+}
+
